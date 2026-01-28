@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple CSS Example</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        p {
+            color: black;
+            font-size: 16px;
+        }
+
+        .box {
+            background-color: white;
+            width: 300px;
+            padding: 15px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome</h1>
+
+    <div class="box">
+        <p>This page uses CSS.</p>
+        <p>CSS improves the look of HTML.</p>
+    </div>
+
+</body>
+</html>
